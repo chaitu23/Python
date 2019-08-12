@@ -1,4 +1,4 @@
 listitems=["apple","benz","chaitu"]
 for a in listitems:
   print(a)
-print(listitems.index(1))
+print(listitems.index("apple"))
