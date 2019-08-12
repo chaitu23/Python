@@ -2,3 +2,4 @@ listitems=["apple","benz","chaitu"]
 for a in listitems:
   print(a)
 print(listitems.index("apple"))
+listitems.insert(4,"dell")
