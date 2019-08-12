@@ -6,3 +6,4 @@ for a in listitems:
 listitems.sort()
 for a in listitems:
   print(a)
+print(listitems.count())
