@@ -1,9 +1,12 @@
 l1=["apple","eagle","benz","fidget","chaitu"]
-print(l1.index("apple"))
+print ("the actual list is " + l1)
+print("index of applie is " + l1.index("apple"))
 l1.insert(4,"dell")
 for a in l1:
   print(a)
+print("the list after sorting is as below.")
 l1.sort()
 for a in l1:
   print(a)
-print(count(l1))
+print("length of the list =" + len(l1))
+print("e is present " + l1.count('e') + " times.")
