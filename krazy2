@@ -12,5 +12,5 @@ for a in l1:
   print(a)
 finalLength=len(l1)
 print("length of the list =" + str(finalLength))
-ecount=l1.count('e')
+ecount=l1.count('apple')
 print("e is present " + str(ecount) + " times.")
