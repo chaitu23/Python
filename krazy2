@@ -1,5 +1,8 @@
-listitems=["apple","benz","chaitu"]
+listitems=["apple","eagle","benz","fidget","chaitu"]
 print(listitems.index("apple"))
 listitems.insert(4,"dell")
+for a in listitems:
+  print(a)
+listitems.sort()
 for a in listitems:
   print(a)
