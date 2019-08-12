@@ -1,9 +1,9 @@
-listitems=["apple","eagle","benz","fidget","chaitu"]
-print(listitems.index("apple"))
-listitems.insert(4,"dell")
-for a in listitems:
+l1=["apple","eagle","benz","fidget","chaitu"]
+print(l1.index("apple"))
+l1.insert(4,"dell")
+for a in l1:
   print(a)
-listitems.sort()
-for a in listitems:
+l1.sort()
+for a in l1:
   print(a)
-print(listitems.count())
+print(count(l1))
